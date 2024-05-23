@@ -1,0 +1,15 @@
+
+body {
+	font-size: 150%;
+	padding-bottom: 2em;
+}
+
+.blurb {
+	border: 1px solid #333;
+	margin: 1em;
+	padding: 1em;
+}
+
+code {
+	color: #003;
+}

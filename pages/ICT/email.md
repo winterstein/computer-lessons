@@ -1,5 +1,6 @@
+home: ../index.html
 
-# Spreadsheets
+# Email TODO
 
 A *spreadsheet* is a software application for recording and analysing facts and numbers.
 
