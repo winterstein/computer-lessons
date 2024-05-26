@@ -12,7 +12,7 @@ Word processors have several features to help you make nice documents:
 
 - **Fonts**   
 A font is the style of letters. You can change the style, the size, and the colour of the text.
-Here are some examples: `a monospaced font`, <span style="script">a script (hand-writing style) font</font>, <small>small text</small>, <span style="color:green">green text</span>. 
+Here are some examples: `a monospaced font`, <span style="font-family:script">a script (hand-writing style) font</font>, <small>small text</small>, <span style="color:green">green text</span>. 
 
 - **Spell-checking**   
 A spell-checker uses a dictionary to check the words you write. It can spot spelling mistakes and help you to correct them.
@@ -28,3 +28,15 @@ Try editing it to put in your name, and some information about your skills.
 
 [Job application example](job-application-letter.docx)
 
+Maybe ask your teacher for feedback on your letter.
+
+<!-- 
+## Try an example: An Event Poster
+
+This document is a poster for a school event.
+
+Try changing the fonts, and moving images around.
+
+[Event Poster](event-poster.docx)
+
+A word-processor is not the best choice of software application for making a poster, as the graphics editing is limited. It is not a bad choice either. -->

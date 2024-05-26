@@ -7,7 +7,7 @@ Anyone can connect their computer or mobile phone to the internet.
 
 Uses of the internet:
 
- - News
+ - Reading news
  - Learning facts, for example from Wikipedia
  - Chatting to people - Often on social media sites like Facebook
  - Shopping
