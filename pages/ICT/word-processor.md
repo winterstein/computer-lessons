@@ -1,34 +1,30 @@
 home: ../index.html
 
-# Word Processors TODO
+# Word Processors
 
-A *spreadsheet* is a software application for recording and analysing facts and numbers.
+A *word processor* is a software application for writing letters and other written documents. 
 
-The facts and numbers are called *data*. A spreadsheet is a simple *database*, good for everyday business. 
+Some word-processors are: Microsoft Word, LibreOffice, and Google Docs.
 
-Common makes of spreadsheet are: *Microsoft Excel*, or *Google Sheets*, or *LibreOffice*.
+You can print the document to get a physical copy. Or you can use the digital file, for example sending it by email.
 
-A spreadsheet shows a table. 
+Word processors have several features to help you make nice documents:
 
- - Columns: The up/down lines in the table. These are labelled A, B, C, ...
- - Rows: The acrorss lines in the table. These are labelled, 1, 2, 3, ...
- - Cells: The squares in the table. These are labelled by column then row, for example "B3"
+- **Fonts**   
+A font is the style of letters. You can change the style, the size, and the colour of the text.
+Here are some examples: `a monospaced font`, <span style="script">a script (hand-writing style) font</font>, <small>small text</small>, <span style="color:green">green text</span>. 
 
-## Try an example: Family size
+- **Spell-checking**   
+A spell-checker uses a dictionary to check the words you write. It can spot spelling mistakes and help you to correct them.
+Many applications have *auto-correct* spell-checking, where the computer automatically fixes a word if it thinks it was a spelling mistake.
+Spell-checking is useful but it is not always right, especially when writing people's names, since these are not in the dictionary.
 
-This spreadsheet is for data about students' families:
 
-Each student should add a row.
+## Try an example: A Job Application Letter
 
-[Family spreadsheet example](file://family-spreadsheet.ods)
+This document is a draft letter asking for a job.
 
-## Try an example: a Business Plan
+Try editing it to put in your name, and some information about your skills.
 
-Spreadsheets are often used for the financial information in a business. A *business plan* shows what the business expects to happen in the future. 
-
-This example spreadsheet is a business plan for a taxi company.
-
-Students should try changing the yellow cells to see the effect on the business.
-
-[Business plan spreadsheet example](file://business-plan.ods)
+[Job application example](job-application-letter.docx)
 

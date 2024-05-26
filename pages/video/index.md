@@ -1,17 +1,17 @@
 home: ../index.html
-vdir: ../../../..
+vdir: ../../../../Videos
 
 <div class="bg-secondary-subtle">
 
 <section src="blurb">
 title: History of Africa: Coast and Conquest - BBC with Zeinab Badawi
-link: $vdir/Videos/Coast and Conquest - History Of Africa with Zeinab Badawi -Episode 12.mp4
+link: $vdir/Coast and Conquest - History Of Africa with Zeinab Badawi -Episode 12.mp4
 Duration: 45 min
 </section>
 
 <section src="blurb">
 title: Meerkat Family Surrounds Cobra (short clip)
-link: $vdir/Videos/Meerkat Family Surrounds Cobra. What Happens Next-BBC Earth.mp4
+link: $vdir/Meerkat Family Surrounds Cobra. What Happens Next-BBC Earth.mp4
 Duration: 1 min 
 </section>
 
@@ -53,7 +53,7 @@ Duration: 1 hour
 </section>
 
 <section src="blurb"> 
-link: Puss.In.Boots.The.Last.Wish.2022.1080p.mp4
+link: $vdir/Puss.In.Boots.The.Last.Wish.2022.1080p.mp4
 title: Puss in Boots - The Last Wish
 Duration: 1 hour 45 min
 </section>
