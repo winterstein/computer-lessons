@@ -8,8 +8,13 @@ body {
 	border: 1px solid #333;
 	margin: 1em;
 	padding: 1em;
+	background: white;
 }
 
 code {
 	color: #003;
+}
+
+.spreadsheet {
+	
 }

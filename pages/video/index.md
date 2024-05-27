@@ -3,6 +3,8 @@ vdir: ../../../../Videos
 
 <div class="bg-secondary-subtle">
 
+<div class="bg-white"><h4><a href="$vdir" target="_blank">Videos</a></h4></div>
+
 <section src="blurb">
 title: History of Africa: Coast and Conquest - BBC with Zeinab Badawi
 link: $vdir/Coast and Conquest - History Of Africa with Zeinab Badawi -Episode 12.mp4
