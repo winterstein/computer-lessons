@@ -118,3 +118,14 @@ Beware of:
  - Social media sites like Facebook, Tik-Tok, and YouTube allow anyone to publish. So the content cannot be trusted unless you trust the person posting. Look at the person or the channel.
 
 Be especially careful with health / medical advice, and money / business advice.
+
+## Other Networks: Local-Area-Networks (LAN) and Wide-Access-Networks (WAN)
+
+The internet is the biggest and most important computer network. Let's cover the other types of network:
+
+A *local-area-network* (LAN) is a network of computers in one building. For example, a school might have a LAN. A LAN can give more privacy and safety than the internet.
+
+A *wide-access-network* (WAN) is a network of computers over a wide area, connected via radio links and telephone cables. The internet is a WAN.
+
+A *virtual-private-network* (VPN) is a way to create a private network over the internet. This is more secure. It is used by companies to let their employees work from home. It can also be used to hide your location from the government or from the websites you visit. A VPN can allow someone in an oppressive country to access the internet freely.
+
