@@ -2,7 +2,17 @@ home: ../index.html
 
 # Artificial Intelligence (AI)
 
-Artificial Intelligence, or AI, refers to computers that can think and reason a bit like humans. AI has evolved significantly in recent years and is now important for various jobs and industries.
+### Hello from Morgan Freeman
+
+<img src="/img/morgan-freeman.jpg" width="100px" class="img-thumbnail" />
+<audio controls>
+  <source src="morgan-freeman-arusha-victory.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+
+That was not the real Morgan Freeman, the famous actor. It was an AI model trained to talk like him. AI can do amazing things, from creating human-like actors to driving cars.
+
+Artificial Intelligence, or AI, refers to computers that can think and reason a bit like humans. AI has evolved significantly in recent years and is now important for various jobs and industries. It is likely to change the way we live and work.
 
 ### Uses of AI
 
@@ -54,9 +64,10 @@ In *Deep Learning*, many neurons are connected, and the computer can learn compl
 
 ### Activity: Exploring AI
 
-1. **Identify AI Around You:** Look for examples of AI in your daily life, such as smart search engines, virtual assistants, recommendation systems, or language translators.
-2. **Discuss AI Uses:** Talk about how AI is used in different fields like healthcare, education, and entertainment.
-3. **Think About Ethics:** Consider the ethical implications of AI. Discuss how AI can be used responsibly and what measures can be taken to prevent misuse.
+1. **Try Chat AI:** Visit a chatbot website like [ChatGPT](https://chat.openai.com/) and have a conversation with an AI.
+2. **Identify AI Around You:** Look for examples of AI in your daily life, such as smart search engines, virtual assistants, recommendation systems, or language translators.
+3. **Discuss AI Uses:** Talk about how AI is used in different fields like healthcare, education, and entertainment.
+4. **Think About Ethics:** Consider the ethical implications of AI. Discuss how AI can be used responsibly and what measures can be taken to prevent misuse.
 
 ### Discussion Questions
 
