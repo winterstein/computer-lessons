@@ -2,7 +2,7 @@ home: ../index.html
 
 # Introduction to Computers
 
-Computers are mart machines. They were invented in World War 2 to help crack enemy codes. 
+Computers are smart machines. They were invented in World War 2 to help crack enemy codes. 
 Since then they have become a key part of everyday life. Using computers well is essential for many jobs.
 Computers can also be used to stay in touch with family and friends who are distant, and for fun, like playing games or watching videos.
 
