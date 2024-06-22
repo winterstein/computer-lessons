@@ -1,7 +1,9 @@
 home: index.html
 
-- ICT
-  - These lessons cover material in the primary school textbooks, plus important extra material. Computing is a fast-moving field, with major changes every few years. This means the textbooks can be out-of-date.
+## ICT Lessons
+
+These lessons cover material in the primary school textbooks, plus important extra material. Computing is a fast-moving field, with major changes every few years. This means textbooks are often out-of-date.
+
   - [Introduction to Computers](ICT/computing-intro.html) 
   - [Libraries](ICT/libraries.html)
   - [The Internet](ICT/the-internet.html)
@@ -12,4 +14,4 @@ home: index.html
   - [Safety Online](ICT/safety-online.html)
   - [AI](ICT/AI.html)	
 
-- [Videos](video/index.html)
+<!-- - [Videos](video/index.html) -->

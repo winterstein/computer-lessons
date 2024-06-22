@@ -4,7 +4,7 @@ home: ../index.html
 
 ### Hello from Morgan Freeman
 
-<img src="/img/morgan-freeman.jpg" width="100px" class="img-thumbnail" />
+<img src="../img/morgan-freeman.jpg" width="100px" class="img-thumbnail" />
 <audio controls>
   <source src="morgan-freeman-arusha-victory.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
