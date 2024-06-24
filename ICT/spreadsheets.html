@@ -29,14 +29,39 @@
 <p>Common makes of spreadsheet are: <em>Microsoft Excel</em>, or <em>Google Sheets</em>, or <em>LibreOffice</em>.</p>
 <p>A spreadsheet shows a table.</p>
 <ul>
-<li>Columns: The up/down lines in the table. These are labelled A, B, C, ...</li>
-<li>Rows: The acrorss lines in the table. These are labelled, 1, 2, 3, ...</li>
-<li>Cells: The squares in the table. These are labelled by column then row, for example &quot;B3&quot;</li>
+<li><em>Columns</em>: The up/down lines in the table. These are labelled A, B, C, ...</li>
+<li><em>Rows</em>: The acrorss lines in the table. These are labelled, 1, 2, 3, ...</li>
+<li><em>Cells</em>: The squares in the table. These are labelled by column then row, for example &quot;B3&quot;</li>
+<li><em>Values</em>: The numbers or text in the cells.</li>
 </ul>
 <h2>Try an example: Family size</h2>
 <p>This spreadsheet is for data about students' families:</p>
 <p>Each student should add a row.</p>
 <p><a href="family-spreadsheet.xlsx">Family spreadsheet example</a></p>
+<h2>Try an example: Exam Results</h2>
+<p><a href="exam-performance-example.xlsx">Exam Performance spreadsheet example</a></p>
+<p>This spreadsheet shows using formula and functions for calculations and logic.
+A formula is a special cell value, where the computer calculates the value from other cells.</p>
+<p>Here are some example formulas:</p>
+<p><code>= B2 + C2</code> add up two cells, B2 and C2.</p>
+<p><code>=SUM(B2:F2)</code> add up a range of cells, in a row from B2 to F2.</p>
+<p><code>=IF(B2 &gt; 30, &quot;Pass&quot;, &quot;Fail&quot;)</code> check if the value in B2 is greater than 30. If it is, show &quot;Pass&quot;, otherwise show &quot;Fail&quot;.</p>
+<p><code>=COUNTIF(B2:B10, &quot;&gt;30&quot;)</code> count how many cells in the column range B2 to B10 have a value greater than 30.</p>
+<p>Formulas are written in a computer language -- a specific way that the computer can understand.
+There are several computer languages (spreadsheet formula is one, Java, Python, and C++ are some others). Each computer language has strict rules for writing, called <code>syntax</code>.</p>
+<p>The rules for spreadsheet formula are:</p>
+<ul>
+<li>Start with <code>=</code> -- this tells the spreadsheet that it will be a formula, not text</li>
+<li>You can use maths symbols: <code>+</code> for addition, <code>-</code> for subtraction, <code>*</code> for multiplication, and <code>/</code> for division, as well as brackets <code>(</code>, <code>)</code>.</li>
+<li>There are commands called &quot;functions&quot; which you can use. These are like mini-programs that do a specific task. For example, <code>SUM</code> adds up a range of cells (the inputs) and gives the total (the output).
+<ul>
+<li>Functions are written with the function name, then an open bracket <code>(</code>, then the inputs, and then a closing bracket <code>)</code>.</li>
+<li>The inputs often use ranges of cells, written with the start cell, then <code>:</code>, then the end cell. For example <code>A1:A3</code> is the range down the A column of A1, A2, A3. Another example <code>A1:C1</code> is the range along the first row of A1, B1, C1.</li>
+<li>A function is only part of a formula, like a plain number is. You can use several functions in a formula.</li>
+</ul>
+</li>
+</ul>
+<p>An example formula, starting with <code>=</code>, using the SUM function, and division <code>= SUM(A1:A10) / 10</code></p>
 <h2>Try an example: a Business Plan</h2>
 <p>Spreadsheets are often used for the financial information in a business. A <em>business plan</em> shows what the business expects to happen in the future.</p>
 <p>This example spreadsheet is a business plan for a taxi company.</p>
