@@ -48,7 +48,7 @@ jobs:
       - name: check2
         run: ls -la
       - name: Run Jerbil run
-        run: jerbil
+        run: java -jar jerbil-all.jar
       - name: Setup Pages
         uses: actions/configure-pages@v5
       # - name: Setup Custom Command
