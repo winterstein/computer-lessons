@@ -35,7 +35,9 @@ jobs:
           cache: npm
       - name: Install Jerbil
         run: npm install -g jerbil-cms
-      - name: Run Jerbil
+      - name: Run Jerbil download
+        run: jerbil -update
+      - name: Run Jerbil run
         run: jerbil
       - name: Setup Pages
         uses: actions/configure-pages@v5
