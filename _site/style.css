@@ -1,0 +1,36 @@
+
+body {
+	font-size: 150%;
+	padding-bottom: 2em;
+}
+
+.blurb {
+	border: 1px solid #333;
+	margin: 1em;
+	padding: 1em;
+	background: white;
+}
+
+code {
+	color: #003;
+}
+
+.spreadsheet {
+	
+}
+
+.blink {
+	animation: blink 1s steps(1, end) infinite;
+  }
+  
+@keyframes blink {
+0% {
+	opacity: 1;
+}
+50% {
+	opacity: 0;
+}
+100% {
+	opacity: 1;
+}
+}
