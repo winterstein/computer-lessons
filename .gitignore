@@ -2,3 +2,4 @@ bob.log
 webroot/*.html
 webroot/video
 node_modules
+_site
