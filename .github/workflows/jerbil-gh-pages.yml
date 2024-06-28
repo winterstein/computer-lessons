@@ -28,23 +28,25 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup node
-        uses: actions/setup-node@v4
-        with:
-          # node-version: "16.13.x"
-          cache: npm
-      - name: Install Jerbil
-        run: npm install -g jerbil-cms
-      - name: Run Jerbil download
-        run: jerbil -update
-      - name: check
+      - name: wget jerbil
+        run: wget https://www.winterwell.com/software/jerbil-all.jar
+      # - name: Setup node
+      #   uses: actions/setup-node@v4
+      #   with:
+      #     # node-version: "16.13.x"
+      #     cache: npm
+      # - name: Install Jerbil
+      #   run: npm install -g jerbil-cms
+      # - name: Run Jerbil download
+      #   run: jerbil -update
+      - name: check runner-bin
         run: ls -la /home/runner/bin
-      - name: wait a sec
-        uses: GuillaumeFalourd/wait-sleep-action@v1
-        with:
-          time: '20' # for a few seconds
+      # - name: wait a sec
+      #   uses: GuillaumeFalourd/wait-sleep-action@v1
+      #   with:
+      #     time: '20' # for a few seconds
       - name: check2
-        run: ls -la /home/runner/bin
+        run: ls -la
       - name: Run Jerbil run
         run: jerbil
       - name: Setup Pages
