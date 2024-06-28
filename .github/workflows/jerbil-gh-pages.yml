@@ -31,7 +31,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v4
         with:
-          node-version: "16.13.x"
+          # node-version: "16.13.x"
           cache: npm
       - name: Install Jerbil
         run: npm install -g jerbil-cms
