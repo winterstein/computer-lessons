@@ -42,7 +42,9 @@ jobs:
       - name: wait a sec
         uses: GuillaumeFalourd/wait-sleep-action@v1
         with:
-          time: '10' # for a few seconds
+          time: '20' # for a few seconds
+      - name: check2
+        run: ls -la /home/runner/bin
       - name: Run Jerbil run
         run: jerbil
       - name: Setup Pages
