@@ -39,8 +39,8 @@ jobs:
       #   run: npm install -g jerbil-cms
       # - name: Run Jerbil download
       #   run: jerbil -update
-      - name: check runner-bin
-        run: ls -la /home/runner/bin
+      # - name: check runner-bin
+      #   run: ls -la /home/runner/bin
       # - name: wait a sec
       #   uses: GuillaumeFalourd/wait-sleep-action@v1
       #   with:
