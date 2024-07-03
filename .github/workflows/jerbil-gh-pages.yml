@@ -31,6 +31,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
+          distribution: 'adopt'
           java-version: '17'
       - name: wget jerbil v1.2.6
         run: wget https://www.winterwell.com/software/jerbil-all.jar
