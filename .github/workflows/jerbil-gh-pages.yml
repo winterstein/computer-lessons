@@ -28,6 +28,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
       - name: wget jerbil v1.2.6
         run: wget https://www.winterwell.com/software/jerbil-all.jar
       - name: ls check files
