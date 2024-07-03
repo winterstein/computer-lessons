@@ -36,13 +36,6 @@ jobs:
         run: java -jar jerbil-all.jar
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      # - name: Setup Custom Command
-      #   uses: 
-      # - name: Build with Jekyll
-      #   uses: actions/jekyll-build-pages@v1
-      #   with:
-      #     source: ./
-      #     destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
