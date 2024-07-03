@@ -28,7 +28,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: wget jerbil
+      - name: wget jerbil v1.2.6
         run: wget https://www.winterwell.com/software/jerbil-all.jar
       - name: ls check files
         run: ls -la
@@ -36,7 +36,7 @@ jobs:
         run: java -jar jerbil-all.jar
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Upload artifact
+      - name: Upload _site artifact
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
