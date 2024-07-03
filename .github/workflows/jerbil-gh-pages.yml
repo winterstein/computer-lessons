@@ -30,22 +30,7 @@ jobs:
         uses: actions/checkout@v4
       - name: wget jerbil
         run: wget https://www.winterwell.com/software/jerbil-all.jar
-      # - name: Setup node
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     # node-version: "16.13.x"
-      #     cache: npm
-      # - name: Install Jerbil
-      #   run: npm install -g jerbil-cms
-      # - name: Run Jerbil download
-      #   run: jerbil -update
-      # - name: check runner-bin
-      #   run: ls -la /home/runner/bin
-      # - name: wait a sec
-      #   uses: GuillaumeFalourd/wait-sleep-action@v1
-      #   with:
-      #     time: '20' # for a few seconds
-      - name: check2
+      - name: ls check files
         run: ls -la
       - name: Run Jerbil run
         run: java -jar jerbil-all.jar
