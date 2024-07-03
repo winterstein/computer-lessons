@@ -1,4 +1,4 @@
-# From: Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# Adapted from: Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy to  GitHub Pages with Jerbil
 
 on:
@@ -33,7 +33,7 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '17'
-      - name: wget jerbil v1.2.6
+      - name: wget jerbil
         run: wget https://www.winterwell.com/software/jerbil-all.jar
       - name: ls check files
         run: ls -la
